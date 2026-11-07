@@ -1,19 +1,19 @@
-# Outreach review sheet (fill for each intended recipient)
+# Review an Outreach Email
 
-- Company and official source:
-- Relevant role and verification source/date:
-- Work email / provider / verification status:
-- Suppression and legal review status:
-- Sender identity / physical address / opt-out:
-- Subject:
-- Full email body (including signature):
-- Why this person, supported by source:
-- Intended send time and timezone:
-- Follow-up proposal and stop rules:
-- CRM records to create or update:
-- Provider credits to spend (must be separately approved):
-- Human approval of exact content, recipient, timing:
-- Result: DRAFT / SENT (verified ID) / UNKNOWN / FAILED
+Fill in one sheet per recipient. Keep completed sheets in private storage.
 
-The review sheet is a private operational artifact. Never commit a filled-in
-sheet containing actual contact information to this repository.
+| Check | What to Record |
+| --- | --- |
+| Company | Company name and official source |
+| Recipient | Name, relevant role, and source and date of role verification |
+| Work email | Address, provider, and verification status |
+| Eligibility | Suppression check and applicable legal review |
+| Sender | Sending account, physical postal address, and opt-out method |
+| Reason to write | Specific business context and the source that supports it |
+| Email | Subject, full body, and signature |
+| Timing | Intended send time and time zone |
+| Follow-up | Proposed timing and reasons to stop |
+| Record changes | CRM entries to create or update |
+| Lookup cost | Provider credits and separate approval to spend them |
+| Approval | Decision on the exact recipient, message, and timing |
+| Result | Draft, sent with verified ID, unknown, or failed |

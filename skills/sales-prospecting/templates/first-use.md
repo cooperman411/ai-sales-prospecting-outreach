@@ -1,19 +1,12 @@
-# Short first-use setup
+# Set Up Your First Search
 
-Ask only for missing information, one small question at a time:
+Use what the operator has already shared. Ask one question at a time when you need more information.
 
-1. What do you offer, and who benefits? Get approved product facts and one
-   sentence describing an ideal customer.
-2. What companies/geography should be included or excluded? Set an initial
-   bounded target (e.g. 10–20 companies for qualification review).
-3. Which authorized mailbox and sender identity will be used? Ask for sender
-   postal address and opt-out route **before any commercial send**.
-4. Do you have an authenticated email finder? Probe native tools, then suggest
-   Hunter or another free-first option. Ask before any paid/revealed lookup.
-5. Do you want to track with CSV, or an optional connected CRM? No CRM is the
-   default. Where should private records be saved?
-6. Which countries/jurisdictions will be contacted and who approves drafts?
-   If legal eligibility is uncertain, stop at research/drafts.
+1. Ask what the business offers and which customers benefit. Confirm the claims you can use. Ask for sample emails or brand notes if you will draft copy.
+2. Confirm the market, the kinds of companies to include, and any exclusions. Agree on a small first list to review.
+3. Check for a connected contact finder. Suggest a free option if needed. Get approval before a lookup that uses paid credits or reveals restricted contact data.
+4. Confirm the intended mailbox and sender. Before any commercial send, check the sender's postal address and opt-out method.
+5. Ask which markets the recipients are in and who reviews the drafts. Resolve eligibility before sending.
+6. Confirm where to store private records. Use a CSV spreadsheet by default. Use a connected CRM when the operator chooses one and authorizes the relevant actions.
 
-Default behavior: research only, no paid lookups, no writes, no sequences,
-no sending, no jobs, no real data inside public repositories.
+Start with research. Get specific approval for paid lookups, writes to connected tools, sequences, scheduled jobs, and sends.

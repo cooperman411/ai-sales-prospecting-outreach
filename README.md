@@ -1,68 +1,31 @@
 # AI Sales Prospecting & Outreach
 
-A simple, vendor-neutral AI skill: **find suitable businesses, locate verified
-professional contacts, write useful individual emails, track replies, and
-prepare sensible follow-ups.** Start with web research and an email account.
-A CRM and paid prospecting service are optional, not prerequisites.
+Use your AI assistant to find businesses that fit what you sell, identify the right people, and draft a short email with a real reason to reach out. Start with web research, an email account, and a private spreadsheet. Add a customer relationship management system (CRM) if your team uses one.
 
-**Status: initial skill package.** Documentation and fictional, offline-tested
-examples only. No live mail or CRM actions have been tested. No actual sending
-code or scheduler is bundled.
+Say you sell scheduling software to service companies. Give the assistant the kind of business you serve and the claims it can make about the software. Ask it to check a small list of companies, show why each fits, and draft a note for the people whose roles and work addresses it can verify.
 
-## The simplest version
+## Start With a Small List
 
-1. Describe the customer you want to reach and the problem you solve.
-2. Research a small, bounded set of promising businesses using public sources.
-3. Identify relevant business roles and find **verified work addresses** using
-   a connected native tool, a free-tier provider, or authorized public sources.
-4. Let the AI write a concise, specific email with one reason for contacting
-   the recipient. Review each draft or a bounded batch.
-5. Send manually from your mailbox, or explicitly authorize a supported
-   connector to send the exact approved messages.
-6. Track what was **actually sent**, replies, opt-outs and follow-up dates in
-   CSV. Use HubSpot, Zoho, Salesforce, or another CRM if desired.
-
-## First-use copy prompt
+Open the [skill](skills/sales-prospecting/SKILL.md) in your assistant, or give it the `skills/sales-prospecting` folder. Paste this request and fill in the details you know.
 
 ```text
-Help me use the AI Sales Prospecting & Outreach skill in this folder.
-Read README.md, skills/sales-prospecting/SKILL.md and the referenced files.
-Keep setup short. Begin with public company research and verified work
-contacts, then prepare a small set of emails for my review. Use native
-integrations first, Composio second, then other suitable tools. No paid data
-usage, CRM writes, email sends, enrollment, or scheduling without my explicit
-authorization. Never invent contact information.
+Read the sales prospecting skill. I offer [product or service] to [type
+of business]. Research up to [number] companies in [market]. Show me
+why each fits and where you found the evidence. Identify relevant roles
+and verify work addresses where you can. Draft a short email for each
+eligible contact using [brand notes or sample emails] for the voice.
+Bring the drafts back for review. Ask before spending credits, saving
+drafts to my mailbox, changing records, or sending anything.
 ```
 
-## What you need
+The [setup questions](skills/sales-prospecting/templates/first-use.md) help define the search. Start with public sources and use an approved contact provider when you need one. Leave unresolved addresses blank. See the [contact provider guide](skills/sales-prospecting/integrations/free-first.md) for options.
 
-- **Required:** company/product facts, an ICP or target description, an approved
-  sending identity, and a way to review outputs.
-- **Optional:** prospecting service (Hunter, Prospeo, Apollo, etc.), CRM,
-  connected Gmail or Microsoft 365, agent tools/MCP, private file storage.
-- **No integration:** Use manual public research, optional human-verified
-  business contacts, email drafts ready to paste, and private CSV files.
+## Review and Track
 
-## Structure
+Use the [review sheet](skills/sales-prospecting/templates/message-review.md) to check the recipient, the source behind the opening line, and the full email. Verify the sender details, opt-out method, and applicable rules before sending. You can send an approved note yourself or authorize a connected mailbox to send it.
 
-- `skills/sales-prospecting/SKILL.md` — control flow and approval boundaries.
-- `references/` — targeting, contact discovery, email writing, compliance, monitoring.
-- `integrations/` — native-first, Composio, and free-first provider guidance.
-- `templates/` — short setup, CSV columns, message review, and opt-out checklist.
-- `examples/` — fully fictional, non-contactable campaign records.
-- `tests/` — offline example checks.
-- `SOURCES.md` — dated official pricing and compliance references.
+Track confirmed sends, replies, and opt-outs in a private spreadsheet or CRM. Base follow-up dates on the confirmed send date. Stop follow-ups when someone replies, opts out, or otherwise becomes ineligible.
 
-Run `python3 -m unittest discover -s tests -v` to validate the examples.
+## Project Status
 
-## Security and compliance
-
-This is not an autonomous mass mailer. Unsolicited commercial email is legally
-regulated, even business-to-business email. Before any send, verify jurisdiction,
-legal basis/consent as applicable, verified sender identity, required address
-and opt-out method, suppression state, and message accuracy. The FTC's CAN-SPAM
-rules apply to US B2B commercial emails. See `references/compliance.md`.
-
-Never store real leads, messages, personal data or tokens in this public repo.
-Publishing this skill grants nobody permission to prospect, spend provider
-credits, change CRM records, or send email. MIT-licensed without warranty.
+The repository includes the workflow and a [fictional campaign](skills/sales-prospecting/examples/fictional-campaign/README.md). Testing so far covers the offline example. For a live campaign, confirm what your [mailbox and CRM tools](skills/sales-prospecting/integrations/native-first.md) can do and review the [outbound email checklist](skills/sales-prospecting/references/compliance.md).
