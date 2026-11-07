@@ -1,0 +1,2 @@
+campaign_id,contact_key,company_key,role_title,work_email,email_verification,source_url,provider,crm_status,suppressed,notes
+sample-campaign,sample-role,example-org,Operations role,,unknown,https://example.org/fictional-update,none,not_checked,false,DO NOT SEND: missing verified recipient

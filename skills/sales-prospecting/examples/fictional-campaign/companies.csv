@@ -1,0 +1,2 @@
+campaign_id,company_key,company_domain,qualification_status,why_fit,source_url,verified_at,crm_status,notes
+sample-campaign,example-org,example.org,unresolved,Synthetic demonstration only,https://example.org/fictional-update,,not_checked,NOT A REAL PROSPECT
