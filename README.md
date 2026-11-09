@@ -1,6 +1,6 @@
 # AI Sales Prospecting & Outreach
 
-Use this playbook to research a small group of business prospects and draft a relevant email for each verified contact.
+Use this playbook to research a group of business prospects and draft a relevant email for each verified contact.
 
 ## Start
 
