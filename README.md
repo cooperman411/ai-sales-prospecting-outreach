@@ -5,10 +5,6 @@ professional contacts, write useful individual emails, track replies, and
 prepare sensible follow-ups.** Start with web research and an email account.
 A CRM and paid prospecting service are optional, not prerequisites.
 
-**Status: initial skill package.** Documentation and fictional, offline-tested
-examples only. No live mail or CRM actions have been tested. No actual sending
-code or scheduler is bundled.
-
 ## Start
 
 Paste this prompt into your AI assistant.
@@ -30,12 +26,12 @@ Your assistant follows the [playbook](skills/sales-prospecting/SKILL.md) and ask
    the recipient. Review each draft or a bounded batch.
 5. Send manually from your mailbox, or explicitly authorize a supported
    connector to send the exact approved messages.
-6. Track what was **actually sent**, replies, opt-outs and follow-up dates in
+6. Track what was sent, replies, opt-outs and follow-up dates in
    CSV. Use HubSpot, Zoho, Salesforce, or another CRM if desired.
 
 ## What you need
 
-- **Required:** company/product facts, an ICP or target description, an approved
+- **Required:** company/product facts, a target description, an approved
   sending identity, and a way to review outputs.
 - **Optional:** prospecting service (Hunter, Prospeo, Apollo, etc.), CRM,
   connected Gmail or Microsoft 365, agent tools/MCP, private file storage.
