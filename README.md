@@ -1,31 +1,23 @@
 # AI Sales Prospecting & Outreach
 
-Use this playbook to research a group of business prospects and draft a relevant email for each verified contact.
-
 ## Start
 
 Paste this prompt into your AI assistant.
 
 ```text
-Help me research a small group of prospects and draft outreach for review.
+Open this GitHub repo and help me with my prospecting and outreach.
 https://github.com/cooperman411/ai-sales-prospecting-outreach
-
-Read skills/sales-prospecting/SKILL.md and follow its first-use steps.
 ```
 
-If your assistant cannot open the repository, give it the [playbook](skills/sales-prospecting/SKILL.md) and the files it references.
+Your assistant follows the [playbook](skills/sales-prospecting/SKILL.md) and asks for the details it needs.
 
-## What You Review
+## What It Does
 
-Start with what you sell, which companies you want to reach, and whom to exclude. The assistant records why each company fits and shows the sources. If it cannot verify a person's role or work email, it leaves the contact out of the send list.
+The assistant finds businesses that fit what you sell, verifies work contacts, and drafts emails with a specific reason to reach out. You review the drafts before sending. You can track sends, replies, and follow-ups in a private spreadsheet or CRM.
 
-Review the recipient, the evidence, the draft, and any proposed follow-up. Sending, starting an automated email sequence, and spending on contact research each require your explicit approval.
+The [fictional campaign](skills/sales-prospecting/examples/fictional-campaign/README.md) shows what a draft and its records look like.
 
-## Keep a Record
-
-Track verified sends, replies, and opt-outs in a private spreadsheet or an authorized customer relationship management (CRM) system. The [fictional campaign](skills/sales-prospecting/examples/fictional-campaign/README.md) shows the records and an example draft.
-
-## Public Projects
+## Other Public Projects
 
 - [AteBit.Tech](https://github.com/cooperman411/AteBitTech)
 - [AI Sales Prospecting & Outreach](https://github.com/cooperman411/ai-sales-prospecting-outreach)
