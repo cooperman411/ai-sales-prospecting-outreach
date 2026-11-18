@@ -66,7 +66,7 @@ This is not an autonomous mass mailer. Unsolicited commercial email is legally
 regulated, even business-to-business email. Before any send, verify jurisdiction,
 legal basis/consent as applicable, verified sender identity, required address
 and opt-out method, suppression state, and message accuracy. The FTC's CAN-SPAM
-rules apply to US B2B commercial emails. See `references/compliance.md`.
+rules apply to US B2B commercial emails. See `skills/sales-prospecting/references/compliance.md`.
 
 Never store real leads, messages, personal data or tokens in this public repo.
 Publishing this skill grants nobody permission to prospect, spend provider
