@@ -16,6 +16,16 @@ https://github.com/cooperman411/ai-sales-prospecting-outreach
 
 Your assistant follows the [playbook](skills/sales-prospecting/SKILL.md) and asks for the details it needs.
 
+## Install as an agent skill (optional)
+
+For an AI agent that supports the [Skills CLI](https://skills.sh/docs), install from GitHub:
+
+```bash
+npx skills add cooperman411/ai-sales-prospecting-outreach
+```
+
+This discovers the `sales-prospecting` skill for compatible agents. Installation does not grant mailbox, CRM, contact-data, or sending permissions. You can also use the **Start** prompt above without installing anything.
+
 ## The simplest version
 
 1. Describe the customer you want to reach and the problem you solve.
@@ -69,5 +79,6 @@ credits, change CRM records, or send email. MIT-licensed without warranty.
 - [AI Social Publishing for Muse](https://github.com/cooperman411/ai-social-publishing)
 - [Hotel Group Sourcing Skill](https://github.com/cooperman411/hotel-group-rfp)
 - [Hotel Revenue Management Toolkit](https://github.com/cooperman411/hotel-revenue-management)
+- [Job Search Simplified](https://github.com/cooperman411/job-search-simplified)
 - [PT/OS One](https://github.com/cooperman411/plain-text-os-one)
 - [PT/OS Workspace](https://github.com/cooperman411/plain-text-os)
