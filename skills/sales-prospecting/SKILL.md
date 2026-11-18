@@ -1,6 +1,7 @@
 ---
-name: ai-sales-prospecting-outreach
-version: 0.1.0
+name: sales-prospecting
+metadata:
+  version: "0.1.0"
 description: Research evidence-based B2B prospects, verify professional contacts, prepare authentic low-volume outbound email, and track replies using native tools first, Composio second, and optional CRM/email discovery providers. Never send or spend without explicit authorization.
 ---
 
